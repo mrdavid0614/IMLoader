@@ -1,4 +1,4 @@
-# ImLoader
+# IMLoader
 
 An application to upload your images to the cloud and get the link of the image to share it.
 
