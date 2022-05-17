@@ -14,6 +14,9 @@ An application to upload your images to the cloud and get the link of the image 
 - TailwindCSS
 - Wouter
 
+**Deployment**
+- Vercel
+
 ## Getting Started
 ```
 	# Install the required dependencies
