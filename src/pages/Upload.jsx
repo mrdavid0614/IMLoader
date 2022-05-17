@@ -24,7 +24,7 @@ function Upload() {
 
   const handleUpload = async () => {
     setIsFetching(true);
-    const API_URL = "http://localhost:2000";
+    const API_URL = import.meta.env.VITE_API_URL;
     const data = new FormData();
     data.append("file", selectedImage);
     const res = await axios.post(API_URL, data, { headers: { "Content-Type": "multipart/form-data" } });
