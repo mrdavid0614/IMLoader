@@ -1,15 +1,11 @@
-import BarLoader from "react-spinners/BarLoader";
-
-const loaderCSS = `
-    border-radius: 15px;
-`;
+import Spinner from "./Spinner"
 
 function Uploading() {
 
   return (
-    <div>
-        <p>Uploading...</p>
-        <BarLoader height={5} width={100} loading={true} speedMultiplier={5} css={loaderCSS} color="aqua" />
+    <div className="flex flex-col gap-10 items-center">
+        <p className="text-2xl">Uploading image...</p>
+        <Spinner/>
     </div>
   )
 }
